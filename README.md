@@ -7,6 +7,9 @@ Select a single or multiple images. They will all be opened in Photoshop as a ne
 1) You CAN use this directly on your RAW images; they will open in ACR inside PS
 2) Your darktable edits will NOT carry-over as this is not an export-then-open function
 
+Known Issues:
+When selecting multiple RAW files, only the first one opens in PS (suspected due to ACR behavior)
+
 Future Features:
 Add "Export to Photoshop" functionality
 
