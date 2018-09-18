@@ -1,17 +1,11 @@
 # OpenInPS-Darktable-PlugIn
 Lua Plugin for Darktable to add the ability to open selected files in Photoshop
 
-Install by requiring in your luarc file (as with any other plug-in for darktable). Once installed open darktable>settings>lua Options. Set the path to photoshop executable. Restart Darktable. 
-
-Select a single or multiple images. They will all be opened in Photoshop as a new image (not as layers). Note that this is opening the original file so that means that:
-1) You CAN use this directly on your RAW images; they will open in ACR inside PS
-2) Your darktable edits will NOT carry-over as this is not an export-then-open function
+Requires darktable lua scripts supporting file to be installed: https://github.com/darktable-org/lua-scripts
+Install this script by copying to your lua/contrib folder and requiring it in your luarc file (as with any other plug-in for darktable). Once installed open darktable>settings>lua Options. Set the path to photoshop executable. Restart Darktable. 
 
 Known Issues:
-When selecting multiple RAW files, only the first one opens in PS (suspected due to ACR behavior)
-
-Future Features:
-Add "Export to Photoshop" functionality
+When selecting multiple RAW files, only the first one opens in PS (suspected due to ACR behavior). This is unlikely to change in the future.
 
 Tested on:
 Windows 10, Photoshop CC 2015
