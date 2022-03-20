@@ -46,7 +46,6 @@ Select the photo(s) you wish to export to Photoshop and select the desired desti
 local dt = require "darktable"
 local df = require "lib/dtutils.file"
 local dsys = require "lib/dtutils.system"
-require "official/yield"
 
 --Detect OS and modify accordingly--	
 op_sys = dt.configuration.running_os
